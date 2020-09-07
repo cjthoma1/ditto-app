@@ -12,7 +12,7 @@ const HomeButton: React.FC<Props> = ({ home }) => {
   // Create and light and dark version of the button
   return (
     <Container home={home}>
-      <Button> 
+      <Button>
         <FontAwesome5 name="plus" size={14} color={home ? '#000' : '#fff'} />
       </Button>
     </Container>

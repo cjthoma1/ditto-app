@@ -3,7 +3,7 @@ import { getStatusBarHeight } from 'react-native-status-bar-height';
 import styled from 'styled-components/native';
 
 export const Container = styled.View.attrs({
-  paddingTop: getStatusBarHeight(),
+  paddingTop: getStatusBarHeight()
 })`
   flex: 1;
   background: #fff;

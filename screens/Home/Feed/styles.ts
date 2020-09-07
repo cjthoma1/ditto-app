@@ -55,7 +55,7 @@ export const Actions = styled.View`
 `;
 
 export const BoxAction = styled.TouchableOpacity.attrs({
-  activeOpacity: 0.8,
+  activeOpacity: 0.8
 })`
   flex-direction: column;
   padding: 10px 0;

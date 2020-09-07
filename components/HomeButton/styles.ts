@@ -19,5 +19,5 @@ export const Container = styled.View`
 `;
 
 export const Button = styled.TouchableOpacity.attrs({
-  activeOpacity: 1,
+  activeOpacity: 1
 })``;

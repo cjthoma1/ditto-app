@@ -11,6 +11,7 @@ import { Container, Header, Text, Tab, Separator } from './styles';
 const Home: React.FC = () => {
   const [tab, setTab] = useState(1);
   const [active, setActive] = useState(0);
+
   return (
     <Container>
       <Header>
@@ -23,14 +24,14 @@ const Home: React.FC = () => {
         </Tab>
       </Header>
       <ViewPager
-        onPageSelected={e => {
+        onPageSelected={(e) => {
           setActive(e.nativeEvent.position);
         }}
         orientation="vertical"
         style={{ flex: 1 }}
         initialPage={0}
       >
-        {server.feed.map(item => (
+        {server.feed.map((item) => (
           <View key={item.id}>
             <Feed item={item} play={Number(item.id) === active} />
           </View>

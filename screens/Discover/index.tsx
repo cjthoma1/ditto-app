@@ -12,7 +12,7 @@ const Discover: React.FC = () => {
         <Search>
           <AntDesign
             style={{
-              paddingRight: 10,
+              paddingRight: 10
             }}
             name="search1"
             size={18}

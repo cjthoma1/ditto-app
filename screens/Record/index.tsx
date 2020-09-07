@@ -4,7 +4,7 @@ import { Text, View, StatusBar } from 'react-native';
 import {
   FontAwesome,
   MaterialCommunityIcons,
-  AntDesign,
+  AntDesign
 } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 import { Camera } from 'expo-camera';
@@ -15,7 +15,7 @@ import {
   Header,
   Row,
   Button,
-  Description,
+  Description
 } from './styles';
 
 const Record: React.FC = () => {
@@ -62,7 +62,7 @@ const Record: React.FC = () => {
               setType(
                 type === Camera.Constants.Type.back
                   ? Camera.Constants.Type.front
-                  : Camera.Constants.Type.back,
+                  : Camera.Constants.Type.back
               );
             }}
           >

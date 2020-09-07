@@ -20,7 +20,7 @@ import {
   ProfileColumn,
   ProfileEdit,
   ProfileText,
-  Bookmark,
+  Bookmark
 } from './styles';
 
 const Me: React.FC = () => {

@@ -17,7 +17,7 @@ import {
   Music,
   MusicBox,
   BoxAction,
-  TextAction,
+  TextAction
 } from './styles';
 
 interface Item {
@@ -43,13 +43,13 @@ const Feed: React.FC<Props> = ({ play, item }) => {
       toValue: 1,
       duration: 10000,
       easing: Easing.linear,
-      useNativeDriver: true,
-    }),
+      useNativeDriver: true
+    })
   ).start();
 
   const rotateProp = spinValue.interpolate({
     inputRange: [0, 1],
-    outputRange: ['0deg', '360deg'],
+    outputRange: ['0deg', '360deg']
   });
 
   return (
@@ -61,7 +61,7 @@ const Feed: React.FC<Props> = ({ play, item }) => {
           left: 0,
           right: 0,
           top: 0,
-          height: '70%',
+          height: '70%'
         }}
       />
       <Container>
@@ -75,7 +75,7 @@ const Feed: React.FC<Props> = ({ play, item }) => {
           isLooping
           style={{
             width: '100%',
-            height: '100%',
+            height: '100%'
           }}
         />
       </Container>
@@ -123,19 +123,19 @@ const Feed: React.FC<Props> = ({ play, item }) => {
               borderColor: '#292929',
               transform: [
                 {
-                  rotate: play ? rotateProp : 0,
-                },
-              ],
+                  rotate: play ? rotateProp : 0
+                }
+              ]
             }}
           >
             <Image
               style={{
                 width: 35,
                 height: 35,
-                borderRadius: 25,
+                borderRadius: 25
               }}
               source={{
-                uri: 'https://avatars3.githubusercontent.com/u/45601574',
+                uri: 'https://avatars3.githubusercontent.com/u/45601574'
               }}
             />
           </Animated.View>
@@ -143,7 +143,12 @@ const Feed: React.FC<Props> = ({ play, item }) => {
           <Lottie
             source={musicFly}
             progress={play ? spinValue : 0}
-            style={{ width: 150, position: 'absolute', bottom: 0, right: 0 }}
+            style={{
+              width: 150,
+              position: 'absolute',
+              bottom: 0,
+              right: 0
+            }}
           />
         </BoxAction>
       </Actions>
@@ -154,7 +159,7 @@ const Feed: React.FC<Props> = ({ play, item }) => {
           left: 0,
           right: 0,
           bottom: 0,
-          height: '50%',
+          height: '50%'
         }}
       />
     </>

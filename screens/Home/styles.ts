@@ -33,7 +33,7 @@ export const Text = styled.Text`
 `;
 
 export const Tab = styled.TouchableOpacity.attrs({
-  activeOpacity: 1,
+  activeOpacity: 1
 })``;
 
 export const Feed = styled.View`

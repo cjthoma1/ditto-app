@@ -4,7 +4,7 @@ import { Feather } from '@expo/vector-icons';
 import styled from 'styled-components/native';
 
 export const Container = styled.View.attrs({
-  paddingTop: getStatusBarHeight(),
+  paddingTop: getStatusBarHeight()
 })`
   flex: 1;
   background: #fff;
@@ -79,7 +79,7 @@ export const ProfileText = styled.Text`
 `;
 
 export const ProfileEdit = styled.TouchableOpacity.attrs({
-  activityOpacity: 1,
+  activityOpacity: 1
 })`
   border-width: 1.5px;
   padding: 10px 30px;
