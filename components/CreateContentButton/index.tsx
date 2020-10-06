@@ -8,7 +8,7 @@ interface Props {
   home: boolean;
 }
 
-const HomeButton: React.FC<Props> = ({ home }) => {
+const CreateContentButton: React.FC<Props> = ({ home }) => {
   // Create and light and dark version of the button
   return (
     <Container home={home}>
@@ -19,4 +19,4 @@ const HomeButton: React.FC<Props> = ({ home }) => {
   );
 };
 
-export default HomeButton;
+export default CreateContentButton;

@@ -7,6 +7,7 @@
       "music": "Introducing Chromecast. The easiest way to enjoy",
       "likes": 9444,
       "comments": 6340,
+      "userImage": "https://i.pinimg.com/originals/7b/8f/49/7b8f492529fd236dc59baf184faf8488.jpg",
       "uri": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
     },
     {
@@ -16,7 +17,155 @@
       "music": "HBO GO now works with Chromecast",
       "likes": 8411,
       "comments": 2240,
+      "userImage": "https://i.pinimg.com/originals/7b/8f/49/7b8f492529fd236dc59baf184faf8488.jpg",
       "uri": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
     }
-  ]
+  ],
+  "inbox": [
+    {
+      "userImg": "https://www.pngitem.com/pimgs/m/505-5059897_tik-tok-png-clipart-logo-tiktok-png-transparent.png",
+      "user": "TikTok",
+      "message": "A @user17387827981 está em live agora!",
+      "live": true
+    },
+    {
+      "userImg": "https://www.pngitem.com/pimgs/m/505-5059897_tik-tok-png-clipart-logo-tiktok-png-transparent.png",
+      "user": "TikTok",
+      "message": "started following you",
+      "live": false
+    },
+    {
+      "userImg": "https://www.pngitem.com/pimgs/m/505-5059897_tik-tok-png-clipart-logo-tiktok-png-transparent.png",
+      "user": "TikTok",
+      "message": "started following you",
+      "live": false
+    },
+    {
+      "userImg": "https://www.pngitem.com/pimgs/m/505-5059897_tik-tok-png-clipart-logo-tiktok-png-transparent.png",
+      "user": "TikTok",
+      "message": "started following you",
+      "live": false
+    },
+    {
+      "userImg": "https://www.pngitem.com/pimgs/m/505-5059897_tik-tok-png-clipart-logo-tiktok-png-transparent.png",
+      "user": "TikTok",
+      "message": "started following you",
+      "live": false
+    },
+    {
+      "userImg": "https://www.pngitem.com/pimgs/m/505-5059897_tik-tok-png-clipart-logo-tiktok-png-transparent.png",
+      "user": "TikTok",
+      "message": "started following you",
+      "live": false
+    }
+  ],
+  "discover": {
+    "categories": [
+      {
+        "name": "selfcomemoji",
+        "description": "Trending",
+        "videos": [
+          {
+            "url": "https://i.pinimg.com/564x/27/b4/5c/27b45cfadb28dbd857ebd662fe3cc1fe.jpg"
+          },
+          {
+            "url": "https://i.pinimg.com/236x/61/69/67/61696742e1b2d8b0d3ed70efaa1b0f89.jpg"
+          },
+          {
+            "url": "https://cdn.mensagenscomamor.com/content/images/m000518052.jpg?v=1&w=600&h=941"
+          },
+          {
+            "url": "https://66.media.tumblr.com/2170b24c045a368996ed3d0b84e74c4e/tumblr_pjn69mp52s1tbym8o_1280.jpg"
+          },
+          {
+            "url": "https://i.pinimg.com/564x/27/b4/5c/27b45cfadb28dbd857ebd662fe3cc1fe.jpg"
+          }
+        ]
+      },
+      {
+        "name": "amoréamor",
+        "description": "Trending",
+        "videos": [
+          {
+            "url": "https://i.pinimg.com/564x/27/b4/5c/27b45cfadb28dbd857ebd662fe3cc1fe.jpg"
+          },
+          {
+            "url": "https://i.pinimg.com/236x/61/69/67/61696742e1b2d8b0d3ed70efaa1b0f89.jpg"
+          },
+          {
+            "url": "https://cdn.mensagenscomamor.com/content/images/m000518052.jpg?v=1&w=600&h=941"
+          },
+          {
+            "url": "https://66.media.tumblr.com/2170b24c045a368996ed3d0b84e74c4e/tumblr_pjn69mp52s1tbym8o_1280.jpg"
+          },
+          {
+            "url": "https://i.pinimg.com/564x/27/b4/5c/27b45cfadb28dbd857ebd662fe3cc1fe.jpg"
+          }
+        ]
+      },
+      {
+        "name": "athomewith",
+        "description": "Trending",
+        "videos": [
+          {
+            "url": "https://i.pinimg.com/564x/27/b4/5c/27b45cfadb28dbd857ebd662fe3cc1fe.jpg"
+          },
+          {
+            "url": "https://i.pinimg.com/236x/61/69/67/61696742e1b2d8b0d3ed70efaa1b0f89.jpg"
+          },
+          {
+            "url": "https://cdn.mensagenscomamor.com/content/images/m000518052.jpg?v=1&w=600&h=941"
+          },
+          {
+            "url": "https://66.media.tumblr.com/2170b24c045a368996ed3d0b84e74c4e/tumblr_pjn69mp52s1tbym8o_1280.jpg"
+          },
+          {
+            "url": "https://i.pinimg.com/564x/27/b4/5c/27b45cfadb28dbd857ebd662fe3cc1fe.jpg"
+          }
+        ]
+      },
+      {
+        "name": "errodeportugues",
+        "description": "Trending",
+        "videos": [
+          {
+            "url": "https://i.pinimg.com/564x/27/b4/5c/27b45cfadb28dbd857ebd662fe3cc1fe.jpg"
+          },
+          {
+            "url": "https://i.pinimg.com/236x/61/69/67/61696742e1b2d8b0d3ed70efaa1b0f89.jpg"
+          },
+          {
+            "url": "https://cdn.mensagenscomamor.com/content/images/m000518052.jpg?v=1&w=600&h=941"
+          },
+          {
+            "url": "https://66.media.tumblr.com/2170b24c045a368996ed3d0b84e74c4e/tumblr_pjn69mp52s1tbym8o_1280.jpg"
+          },
+          {
+            "url": "https://i.pinimg.com/564x/27/b4/5c/27b45cfadb28dbd857ebd662fe3cc1fe.jpg"
+          }
+        ]
+      },
+      {
+        "name": "horadopenalti",
+        "description": "Trending",
+        "videos": [
+          {
+            "url": "https://i.pinimg.com/564x/27/b4/5c/27b45cfadb28dbd857ebd662fe3cc1fe.jpg"
+          },
+          {
+            "url": "https://i.pinimg.com/236x/61/69/67/61696742e1b2d8b0d3ed70efaa1b0f89.jpg"
+          },
+          {
+            "url": "https://cdn.mensagenscomamor.com/content/images/m000518052.jpg?v=1&w=600&h=941"
+          },
+          {
+            "url": "https://66.media.tumblr.com/2170b24c045a368996ed3d0b84e74c4e/tumblr_pjn69mp52s1tbym8o_1280.jpg"
+          },
+          {
+            "url": "https://i.pinimg.com/564x/27/b4/5c/27b45cfadb28dbd857ebd662fe3cc1fe.jpg"
+          }
+        ]
+      }
+    ]
+  }
 }

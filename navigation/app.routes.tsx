@@ -7,7 +7,7 @@ import { createMaterialBottomTabNavigator } from '@react-navigation/material-bot
 import { createStackNavigator } from '@react-navigation/stack';
 import React, { useState } from 'react';
 import { Platform, StatusBar } from 'react-native';
-import HomeButtom from '../components/HomeButton';
+import CreateContentButton from '../components/CreateContentButton';
 import Discover from '../screens/Discover';
 import Home from '../screens/Home';
 import Inbox from '../screens/Inbox';
@@ -69,7 +69,7 @@ const AppRoutes: React.FC = () => {
         }}
       />
       <Tab.Screen
-        name="Live"
+        name="Record"
         component={Record}
         listeners={({ navigation }) => ({
           tabPress: (e) => {
@@ -82,7 +82,7 @@ const AppRoutes: React.FC = () => {
         })}
         options={{
           tabBarLabel: '',
-          tabBarIcon: () => <HomeButtom home={home} />
+          tabBarIcon: () => <CreateContentButton home={home} />
         }}
       />
       <Tab.Screen

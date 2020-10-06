@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image, Animated, Easing } from 'react-native';
 
-import { FontAwesome, AntDesign } from '@expo/vector-icons';
+import { FontAwesome } from '@expo/vector-icons';
 import { Video } from 'expo-av';
 import { LinearGradient } from 'expo-linear-gradient';
 import Lottie from 'lottie-react-native';
@@ -12,17 +12,21 @@ import {
   Container,
   Details,
   Actions,
-  User,
+  Username,
   Tags,
   Music,
   MusicBox,
   BoxAction,
-  TextAction
+  TextAction,
+  UserAdd,
+  UserImage,
+  styles
 } from './styles';
 
 interface Item {
   id: number;
   username: string;
+  userImage: string;
   tags: string;
   music: string;
   likes: number;
@@ -80,7 +84,7 @@ const Feed: React.FC<Props> = ({ play, item }) => {
         />
       </Container>
       <Details>
-        <User>{item.username}</User>
+        <Username>{item.username}</Username>
         <Tags>{item.tags}</Tags>
         <MusicBox>
           <FontAwesome name="music" size={15} color="#f5f5f5" />
@@ -89,30 +93,21 @@ const Feed: React.FC<Props> = ({ play, item }) => {
       </Details>
       <Actions>
         <BoxAction>
-          <AntDesign
-            style={{ alignSelf: 'center' }}
-            name="heart"
-            size={35}
-            color="#fff"
-          />
+          <UserImage resizeMode="contain" source={{ uri: item.userImage }} />
+          <UserAdd>
+            <FontAwesome style={styles.miniIconStyle} name="plus" />
+          </UserAdd>
+        </BoxAction>
+        <BoxAction>
+          <FontAwesome style={styles.generalIconStyle} name="heart" />
           <TextAction>{item.likes}</TextAction>
         </BoxAction>
         <BoxAction>
-          <FontAwesome
-            style={{ alignSelf: 'center' }}
-            name="commenting"
-            size={35}
-            color="#fff"
-          />
+          <FontAwesome style={styles.generalIconStyle} name="commenting" />
           <TextAction>{item.comments}</TextAction>
         </BoxAction>
         <BoxAction>
-          <FontAwesome
-            style={{ alignSelf: 'center' }}
-            name="whatsapp"
-            size={35}
-            color="#06d755"
-          />
+          <FontAwesome style={styles.greenIconStyle} name="whatsapp" />
           <TextAction>Share</TextAction>
         </BoxAction>
         <BoxAction>
@@ -130,8 +125,8 @@ const Feed: React.FC<Props> = ({ play, item }) => {
           >
             <Image
               style={{
-                width: 35,
-                height: 35,
+                width: 26,
+                height: 26,
                 borderRadius: 25
               }}
               source={{
@@ -144,7 +139,7 @@ const Feed: React.FC<Props> = ({ play, item }) => {
             source={musicFly}
             progress={play ? spinValue : 0}
             style={{
-              width: 150,
+              width: 100,
               position: 'absolute',
               bottom: 0,
               right: 0

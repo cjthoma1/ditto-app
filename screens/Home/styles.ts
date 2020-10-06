@@ -26,7 +26,7 @@ export const Header = styled.View`
 `;
 export const Text = styled.Text`
   color: #fff;
-  font-size: ${(props: Props) => (props.active ? '20px' : '18px')};
+  font-size: ${(props: Props) => (props.active ? '18px' : '16px')};
   padding: 5px;
   font-weight: bold;
   opacity: ${(props: Props) => (props.active ? '1' : '0.5')};
