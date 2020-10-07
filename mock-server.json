@@ -23,38 +23,44 @@
   ],
   "inbox": [
     {
-      "userImg": "https://www.pngitem.com/pimgs/m/505-5059897_tik-tok-png-clipart-logo-tiktok-png-transparent.png",
-      "user": "TikTok",
+      "id": 0,
+      "userImage": "https://www.pngitem.com/pimgs/m/505-5059897_tik-tok-png-clipart-logo-tiktok-png-transparent.png",
+      "username": "TikTok",
       "message": "A @user17387827981 está em live agora!",
       "live": true
     },
     {
-      "userImg": "https://www.pngitem.com/pimgs/m/505-5059897_tik-tok-png-clipart-logo-tiktok-png-transparent.png",
-      "user": "TikTok",
+      "id": 1,
+      "userImage": "https://www.pngitem.com/pimgs/m/505-5059897_tik-tok-png-clipart-logo-tiktok-png-transparent.png",
+      "username": "TikTok",
       "message": "started following you",
       "live": false
     },
     {
-      "userImg": "https://www.pngitem.com/pimgs/m/505-5059897_tik-tok-png-clipart-logo-tiktok-png-transparent.png",
-      "user": "TikTok",
+      "id": 2,
+      "userImage": "https://www.pngitem.com/pimgs/m/505-5059897_tik-tok-png-clipart-logo-tiktok-png-transparent.png",
+      "username": "TikTok",
       "message": "started following you",
       "live": false
     },
     {
-      "userImg": "https://www.pngitem.com/pimgs/m/505-5059897_tik-tok-png-clipart-logo-tiktok-png-transparent.png",
-      "user": "TikTok",
+      "id": 3,
+      "userImage": "https://www.pngitem.com/pimgs/m/505-5059897_tik-tok-png-clipart-logo-tiktok-png-transparent.png",
+      "username": "TikTok",
       "message": "started following you",
       "live": false
     },
     {
-      "userImg": "https://www.pngitem.com/pimgs/m/505-5059897_tik-tok-png-clipart-logo-tiktok-png-transparent.png",
-      "user": "TikTok",
+      "id": 4,
+      "userImage": "https://www.pngitem.com/pimgs/m/505-5059897_tik-tok-png-clipart-logo-tiktok-png-transparent.png",
+      "username": "TikTok",
       "message": "started following you",
       "live": false
     },
     {
-      "userImg": "https://www.pngitem.com/pimgs/m/505-5059897_tik-tok-png-clipart-logo-tiktok-png-transparent.png",
-      "user": "TikTok",
+      "id": 5,
+      "userImage": "https://www.pngitem.com/pimgs/m/505-5059897_tik-tok-png-clipart-logo-tiktok-png-transparent.png",
+      "username": "TikTok",
       "message": "started following you",
       "live": false
     }
