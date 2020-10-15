@@ -1,6 +1,6 @@
-import { getStatusBarHeight } from 'react-native-status-bar-height';
-
 import { Feather } from '@expo/vector-icons';
+import { StyleSheet } from 'react-native';
+import { getStatusBarHeight } from 'react-native-status-bar-height';
 import styled from 'styled-components/native';
 
 export const Container = styled.View.attrs({
@@ -14,9 +14,18 @@ export const Header = styled.View`
   padding: 10px;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   border-bottom-width: 0.5px;
   border-bottom-color: #dadada;
+`;
+
+export const HeaderIconContainer = styled.TouchableOpacity`
+  padding: 0 10px;
+`;
+
+export const HeaderTitleContainer = styled.View`
+  flex-direction: row;
+  justify-content: center;
 `;
 
 export const Title = styled.Text`
@@ -31,8 +40,14 @@ export const Content = styled.View`
 
 export const Avatar = styled.Image`
   align-self: center;
+  margin-top: 15px;
   width: 120px;
-  height: 140px;
+  height: 120px;
+  border-radius: 60px;
+  border-width: 1px;
+  border-color: #e5e5e5;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const Username = styled.Text`
@@ -64,8 +79,11 @@ export const Separator = styled.Text`
 `;
 
 export const StatsText = styled.Text`
-  font-size: 12px;
   color: #8f8f91;
+`;
+
+export const BioContainer = styled.TouchableOpacity`
+  padding: 10px;
 `;
 
 export const ProfileColumn = styled.View`
@@ -94,4 +112,35 @@ export const Bookmark = styled(Feather)`
   margin-left: 5px;
   border-color: #e6e6e6;
   border-radius: 2px;
+`;
+
+export const ButtonAddBio = styled.TouchableOpacity`
+  margin-left: 10px;
+  display: flex;
+  height: 52px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+`;
+
+export const ButtonAddBioText = styled.Text`
+  color: #333;
+`;
+
+export const Tabs = styled.View`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top-width: ${StyleSheet.hairlineWidth}px;
+  border-top-color: #e5e5e5;
+  border-bottom-width: ${StyleSheet.hairlineWidth}px;
+  border-bottom-color: #e5e5e5;
+`;
+
+export const Tab = styled.TouchableOpacity`
+  width: 33%;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
 `;
